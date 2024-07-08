@@ -1,0 +1,7 @@
+# macos
+.DS_Store
+
+# kicad
+*.lck
+*-backups/*.zip
+fp-info-cache
