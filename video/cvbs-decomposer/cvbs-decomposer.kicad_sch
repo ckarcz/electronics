@@ -3189,22 +3189,22 @@
 		(uuid "20c8c0b4-94e6-449d-8f5e-742d71e8e40a")
 	)
 	(junction
+		(at 67.31 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33a5b8b4-8679-471d-a410-9d43ef45ae5e")
+	)
+	(junction
 		(at 139.7 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d75b5b1-d21a-49bb-acd7-446af5fd8877")
 	)
 	(junction
-		(at 59.69 152.4)
+		(at 59.69 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43db76e9-ca47-4659-abfe-7b25df4469b9")
-	)
-	(junction
-		(at 90.17 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "509b4326-2d94-4df7-8737-1faa9fa2caaa")
+		(uuid "41efd40a-11a8-4af1-9959-59d85f94c51b")
 	)
 	(junction
 		(at 119.38 33.02)
@@ -3229,12 +3229,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f0c2951-6d1e-48ec-86ae-bcd68c841279")
-	)
-	(junction
-		(at 59.69 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67421bcb-7cf5-41b3-b35d-1bc1189decb6")
 	)
 	(junction
 		(at 163.83 62.23)
@@ -3267,10 +3261,10 @@
 		(uuid "a7e1a06d-5d97-4fc5-9a11-c81d8804b0f4")
 	)
 	(junction
-		(at 67.31 134.62)
+		(at 59.69 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6f14012-4fa5-4f2b-88d9-fe55dd4a21a2")
+		(uuid "b732b506-abc6-4fd0-803d-3659b3ff607d")
 	)
 	(junction
 		(at 49.53 87.63)
@@ -3291,16 +3285,16 @@
 		(uuid "c717994b-f6ae-443a-a127-c4a56197f0d1")
 	)
 	(junction
-		(at 59.69 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca7b527e-8766-4584-ad6a-7c6011aad0c5")
-	)
-	(junction
 		(at 128.27 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df7e7a47-7e42-4a6b-a61e-5d0096fe1a46")
+	)
+	(junction
+		(at 90.17 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc1dc9d-2259-480b-9386-3049c3a6bada")
 	)
 	(junction
 		(at 128.27 101.6)
@@ -3482,16 +3476,6 @@
 		)
 		(uuid "13f1595f-c5b4-4253-a132-efc681fca6bd")
 	)
-	(wire
-		(pts
-			(xy 67.31 134.62) (xy 77.47 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1640f150-c96c-4cf0-a3d6-f35e8fa29363")
-	)
 	(polyline
 		(pts
 			(xy 236.22 45.72) (xy 237.49 45.72)
@@ -3644,6 +3628,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 152.4) (xy 90.17 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f1ac95c-1df6-4696-92ac-4215ea803812")
+	)
+	(wire
+		(pts
 			(xy 119.38 20.32) (xy 119.38 33.02)
 		)
 		(stroke
@@ -3681,16 +3675,6 @@
 			(type default)
 		)
 		(uuid "39225e40-06e3-4ef4-a193-d30609e490cc")
-	)
-	(wire
-		(pts
-			(xy 59.69 134.62) (xy 59.69 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392496b1-b04e-433f-a274-9ce50bc0cefa")
 	)
 	(wire
 		(pts
@@ -3922,16 +3906,6 @@
 		)
 		(uuid "5d423b3f-7405-417b-8721-8aa6b66bd803")
 	)
-	(wire
-		(pts
-			(xy 59.69 134.62) (xy 67.31 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d9319d7-f3da-40c4-b72b-e8cf046c5e4a")
-	)
 	(polyline
 		(pts
 			(xy 234.95 85.09) (xy 236.22 85.09)
@@ -3971,6 +3945,16 @@
 			(type default)
 		)
 		(uuid "6153110e-d0f6-4881-bb77-c9bcb2e4f7bf")
+	)
+	(wire
+		(pts
+			(xy 59.69 134.62) (xy 67.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61fea6df-1c6b-4ae0-a7e6-6828e95ce71d")
 	)
 	(wire
 		(pts
@@ -4102,16 +4086,6 @@
 		)
 		(uuid "6f906539-cc7f-4c28-ba56-5ba11e492258")
 	)
-	(wire
-		(pts
-			(xy 59.69 152.4) (xy 59.69 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75172b26-e654-4b42-ba83-5244056bd63b")
-	)
 	(polyline
 		(pts
 			(xy 243.84 153.67) (xy 245.11 153.67)
@@ -4234,6 +4208,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 134.62) (xy 59.69 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7e91d1-85e3-40fe-a2cd-02408f2f7412")
+	)
+	(wire
+		(pts
 			(xy 157.48 57.15) (xy 161.29 57.15)
 		)
 		(stroke
@@ -4314,6 +4298,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 134.62) (xy 77.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3883fe-4ace-4e68-9040-7c167f12172b")
+	)
+	(wire
+		(pts
 			(xy 171.45 101.6) (xy 171.45 73.66)
 		)
 		(stroke
@@ -4361,6 +4355,16 @@
 			(type default)
 		)
 		(uuid "a688872c-d2c6-478f-a9e0-543eea929943")
+	)
+	(wire
+		(pts
+			(xy 59.69 157.48) (xy 59.69 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a36740-598d-4fcd-ada3-617933338a76")
 	)
 	(wire
 		(pts
@@ -4534,16 +4538,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 147.32) (xy 59.69 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c460aa50-4239-4f2c-bbe0-7853f44b5548")
-	)
-	(wire
-		(pts
 			(xy 148.59 68.58) (xy 148.59 109.22)
 		)
 		(stroke
@@ -4701,16 +4695,6 @@
 			(type default)
 		)
 		(uuid "dd73f441-5974-4d31-a9af-17b0a5784c07")
-	)
-	(wire
-		(pts
-			(xy 90.17 152.4) (xy 90.17 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4fca2d-ed00-4eef-8bdf-241df6a30202")
 	)
 	(wire
 		(pts
@@ -6768,71 +6752,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 59.69 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42890f19-cf2e-4a57-a929-d394c7ead09e")
-		(property "Reference" "#POW_GND05"
-			(at 59.69 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "331520eb-b06f-47a9-8ec7-7b776481c3a9")
-		)
-		(instances
-			(project "cvbs-decomposer"
-				(path "/60677854-96db-42b6-9827-28cf230d395c"
-					(reference "#POW_GND05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 200.66 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7129,6 +7048,72 @@
 			(project "cvbs-decomposer"
 				(path "/60677854-96db-42b6-9827-28cf230d395c"
 					(reference "#POW_5V02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 90.17 157.48 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52c0a460-0270-417f-b904-9129e586ad20")
+		(property "Reference" "#POW_5V06"
+			(at 90.17 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 89.916 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 90.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87a35eae-5ba9-4051-9f5b-aa02ec4c58d7")
+		)
+		(instances
+			(project "cvbs-decomposer"
+				(path "/60677854-96db-42b6-9827-28cf230d395c"
+					(reference "#POW_5V06")
 					(unit 1)
 				)
 			)
@@ -7508,71 +7493,6 @@
 			(project "cvbs-decomposer"
 				(path "/60677854-96db-42b6-9827-28cf230d395c"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67ff4929-d09e-4d57-a95c-23b60741d22d")
-		(property "Reference" "#POW_GND010"
-			(at 90.17 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b718e2d-5145-48cd-8714-883725098256")
-		)
-		(instances
-			(project "cvbs-decomposer"
-				(path "/60677854-96db-42b6-9827-28cf230d395c"
-					(reference "#POW_GND010")
 					(unit 1)
 				)
 			)
@@ -9717,6 +9637,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 59.69 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6b2b77d-b59c-4626-92f4-be7f2fc37d06")
+		(property "Reference" "#POW_GND05"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "debc70b0-737e-46a1-8566-c8b0cf7cf93b")
+		)
+		(instances
+			(project "cvbs-decomposer"
+				(path "/60677854-96db-42b6-9827-28cf230d395c"
+					(reference "#POW_GND05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 93.98 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10046,6 +10032,72 @@
 			(project "cvbs-decomposer"
 				(path "/60677854-96db-42b6-9827-28cf230d395c"
 					(reference "#POW_GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 59.69 157.48 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0fe883f-f7ce-411d-adce-cc33bd57ca1c")
+		(property "Reference" "#POW_5V07"
+			(at 59.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 59.436 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 59.69 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ba087ec-bf9b-4006-8a5c-8b7192561762")
+		)
+		(instances
+			(project "cvbs-decomposer"
+				(path "/60677854-96db-42b6-9827-28cf230d395c"
+					(reference "#POW_5V07")
 					(unit 1)
 				)
 			)
