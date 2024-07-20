@@ -31973,7 +31973,7 @@
 	)
 	(gr_text "-12V"
 		(at 115.47 143.311725 270)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "ede48470-d9d0-4390-9fbc-214f9b0e9754")
 		(effects
 			(font
