@@ -87,7 +87,7 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
-		(grid_origin 158.25 129.005875)
+		(grid_origin 103.9576 148.551975)
 		(pcbplotparams
 			(layerselection 0x00010f0_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -5081,6 +5081,117 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "a8b1c0b6-e49d-4b7c-bab4-d028ba879169")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "18d7570a-73ce-4ecb-bc25-4b6b2a11193d")
+		(at 164.5 144.2059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K4"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f7c670a1-88eb-42f5-95dd-bc463fb24773")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "9ff75bdd-290d-4b4c-b10f-27757e6221f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "47b5e7a1-c396-4eae-ab1e-dd144b5b1d86")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "199dce4f-9be5-4744-85bf-4b743dced4b9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "e9ead303-9445-4b23-acd6-1d98c9dae809")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "c600af40-3af7-4865-80a4-435e49665c92")
 		)
 	)
 	(footprint "Heatsink:Heatsink_Tayda_16.50x16.50"
@@ -12251,6 +12362,117 @@
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
+		(uuid "28bef5d1-5c42-4917-80cf-c70592e469ef")
+		(at 174.5 146.7059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K16"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e507868e-9299-496f-9d6e-835c60a30f55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "f8bca46d-2482-4370-a290-f6e2d0ea04b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "989c6cf0-c8a8-492f-9101-d6cf94c48a58")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "75b8201d-30a7-442c-8778-69885860f88f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "7ec806e6-727f-4e2a-8d6d-6ba470c7f6b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "fcf0957a-fcc9-4d10-ad4d-d9c9810c41da")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
 		(uuid "296d2e9b-0f1f-43df-959d-b0469f43b711")
 		(at 162.08 134.0987)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
@@ -15671,6 +15893,117 @@
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
+		(uuid "2e8cd3c1-a5a7-458d-af57-f6e31d9d95cf")
+		(at 162 144.2059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K3"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7ae7f2ff-37bd-423c-83aa-ba0c7edc02c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "2350d481-ab53-4eb1-9cda-8cb23b4d88bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "7caa0a6d-d485-49ca-874a-3c076b7e492c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "9e0f2f75-3f78-45b0-90d7-f197c81dc2eb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "00515d26-22c1-4401-81bf-948117aec7e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "6eb0b361-eabe-4062-98ac-a875c6617aae")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
 		(uuid "3050c1d6-7f21-44bd-9c7b-4c0f98f733b7")
 		(at 157.08 134.0987)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
@@ -15778,6 +16111,117 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "f37e5129-daaf-4127-87bb-61bd75505549")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "34cea6fd-5007-41e9-8dc5-d37c966586ab")
+		(at 164.5 146.7059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K12"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5ea67641-24b9-413e-88c8-96931d8ddac5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "ab51b463-608a-4674-abaf-24098cf1a6fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "6840ebb4-87bf-4cfb-9a96-12a9e4185f13")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "26b114dd-4800-49f7-92b3-db5383c2f1cd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "78b0b59d-45dd-4dec-b0bb-d023a0693a7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "f1ccc8ea-d9ab-44a3-9b9d-e8b1d6b8aa64")
 		)
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
@@ -16589,6 +17033,117 @@
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
+		(uuid "58a5cd3c-d89d-4bef-99d8-65768c402b84")
+		(at 172 146.7059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K15"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "044869cc-46e9-421f-9c98-550e15c98525")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "75dbed44-48bc-43b2-9789-c41f58bba192")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "b947b5cd-d160-449b-b715-e54cc5f6e5bb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "216a1864-40fc-45fa-a056-2def5e4f9711")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "6dc36f83-0391-4ac7-a0f3-7467440191a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "0f6da058-1593-428e-a2bf-88b8782d0f5e")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
 		(uuid "61a51e69-2f34-4013-af8a-514b811f4f5a")
 		(at 172.08 134.0987)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
@@ -17108,6 +17663,117 @@
 			(uuid "f1ccc8ea-d9ab-44a3-9b9d-e8b1d6b8aa64")
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "7e774bb3-49d7-4528-8768-fa61b3695742")
+		(at 157 144.2059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K1"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "74c3c506-819c-4e98-9ea0-604e65023283")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "31bc6f23-1958-4576-a0c4-14b62b4bfd6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "9befb7ee-bb41-4962-bdb9-de4a9a2a50c3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "cccd27bf-b34c-4ae7-a6a1-44273f0a615e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "ef7b9103-6db3-43de-9e92-d673d3d05302")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "f37e5129-daaf-4127-87bb-61bd75505549")
+		)
+	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "80ecd94d-4261-4dee-b9df-dd13cf4e9e6e")
@@ -17603,6 +18269,117 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "2a3511d5-a079-431f-831f-a9f117fb3c28")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "908d6df9-d9e6-4e4e-9c49-e8ecf390a682")
+		(at 159.5 146.7059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K10"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dc6656ea-9f00-4cf4-81ab-d8bc4a4a8ab3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "2b629c9b-e48b-4ab5-97f6-51573f07a290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "688ba492-9532-48ac-832d-ba46c5862448")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "67b51f4a-55d3-49b5-afc4-2b3dae2a5172")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "8b30ea89-2a35-4a1b-a99e-b589b755ab5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "854accb2-c58d-4d06-9133-91caac052ec6")
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
@@ -18786,6 +19563,117 @@
 			(uuid "854accb2-c58d-4d06-9133-91caac052ec6")
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "a2f81299-168b-420a-a27b-42e8bf1f52e2")
+		(at 169.5 144.2059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K6"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9381646a-fe5a-4717-a1a7-01f9b2b76e0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "0c6de647-09c0-4f7e-9eca-8c53f791a35a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "1805e0de-b496-468d-914d-6714c4a70e90")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e48a50e7-366e-4226-8f1b-1a87aad306f1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "b515666f-ebe0-43d7-a431-8406aa0dfb13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "a8b1c0b6-e49d-4b7c-bab4-d028ba879169")
+		)
+	)
 	(footprint "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "a3a6e4b9-2bc7-455a-bf5d-e9188549248c")
@@ -19083,6 +19971,117 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "ad872ce7-a6ca-4a5d-9f09-3843cd0cd258")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "a87dd0cb-c163-433f-96d4-3a28176cdc24")
+		(at 157 146.7059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K9"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7359ceec-f5ed-4827-83cc-838a1de1fb70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "19f4a963-0104-4eec-8a0e-e9713638c920")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "01bb0d53-8985-4b71-9ffc-bf0455f7c13d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "04674f81-743b-4550-b704-4943cbdd7fc1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "881c758c-4099-4cfe-a8f0-1c8e9e8654f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "3945e483-0650-47a6-9937-c76cb57d6726")
 		)
 	)
 	(footprint "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
@@ -25558,6 +26557,117 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "d323ab69-0b5f-429a-be5e-81eb35ff7efe")
+		(at 167 144.2059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K5"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fb77ef78-de84-4c78-bc7a-db0f37bd3368")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "33ddee5c-1d1c-47a8-a719-235680c8e036")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "3a1980d2-abbf-4176-b386-37d2089e24d0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "00d33561-cbe1-460e-9711-55c9051120d4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "81c2e784-47ce-45ca-9837-366f55262c41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "cf24ecb3-2e5e-4755-83f3-7f24f06444f7")
+		)
+	)
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d3261874-c126-4574-9857-61fb5dd3b494")
@@ -29454,6 +30564,117 @@
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
+		(uuid "de30a337-c806-42d2-9b91-aaa0b196eb6d")
+		(at 159.5 144.2059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K2"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cbc6fce6-f365-49e8-8146-e037b55107ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "62083f2e-0161-447e-b6e0-a94bc11ce557")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "6beec771-094d-4549-9cb6-94f6eb615c93")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e1aeb11f-8b3b-4469-beef-525304250eb5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "d2b648d3-9b80-4985-971b-60e255e0283b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "2b86cd37-3637-42e8-9e4c-d1027ea74d9c")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
 		(uuid "e2fd3ea8-881d-4ed2-992f-88c791bc5047")
 		(at 167.08 139.0987)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
@@ -29561,6 +30782,228 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "b2f2d961-91fb-415c-9862-bab54518e1eb")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "e7486bd3-a312-48c8-9298-51ef7591db8b")
+		(at 169.5 146.7059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K14"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "14af216e-9b2f-43a9-9dff-144f7bedcac5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "c0bbb829-d7de-422b-b312-bbd76bebbec4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "b936c34a-3e2c-46c6-968c-5bc6629e2f14")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "28fd075c-87a8-45ca-9d06-a217403484ce")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "f6d58155-3c36-445f-9254-226c1421deb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "36cae5f9-cb56-4204-82ba-9cf3edb103a8")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "e837efd4-6af3-4640-bd46-55caac229c8b")
+		(at 172 144.2059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K7"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "84e0cfa6-0d3f-434e-8225-abaa38822a32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "df80effb-7281-4c8b-b3a6-c43e483e86d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "dbcca249-0592-427f-a980-a050bf27a9fa")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b6f1076b-df94-4d5a-8df0-3e63fd52b1f9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "5b7fb639-49e2-44cd-8473-3547ddef6098")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "657889c9-8e7c-42bf-bd32-18d963251bfe")
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-220-3_Vertical"
@@ -31201,6 +32644,228 @@
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
+		(uuid "f4f22c2b-75b6-4208-a8ec-b4e50188b762")
+		(at 174.5 144.2059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K8"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "25010c78-4d1d-4261-92bc-1f941917d15e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "2ee86938-6ad5-4450-a631-717118ba477c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "52530436-fcd7-4e2c-a261-1b3503f87bc5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "481fa7ab-6083-4444-b56e-45ef68b0d75e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "47f050e0-26bf-4614-97d5-b14e778d5979")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b860253f-4f83-410c-b9e2-552f5c8c8b05")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "f7f9c3ca-91fc-467f-8e7a-7964ffef94b5")
+		(at 167 146.7059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K13"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4127a238-1626-41ba-ba17-ec60e9ac560c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "f6d5b4c9-da35-4824-9e8d-3e75c8b14bc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "5419a314-2ebf-4936-b167-08e2deff4216")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b649fe5e-c341-48ef-95e7-6e13e72dd68c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "2a1eaa78-e3e3-48cb-9774-c576024b5355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "7b214a03-1ae9-4f79-96fe-041987f268f4")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
 		(uuid "f9470c06-c75f-4f46-a396-a00c4fd289a3")
 		(at 164.58 141.5987)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
@@ -31308,6 +32973,117 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "aaa8aa8d-072f-47dd-8097-1ea8210a5ce3")
+		)
+	)
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "fb37de6d-f86b-4cd9-8700-7c51762974aa")
+		(at 162 146.7059)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "K11"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7d26ad98-b5c0-4806-b72e-dbe225008eef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "6196b242-2188-4c7b-b875-149ba16cf192")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c88feeb-3470-4e3a-8c93-551f718045cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14d95b05-24f7-472c-aa12-b90d72444b7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43409e72-0ec4-4dce-a359-c7eb499dc9a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "bdb64ad4-8190-4660-9b10-6d96db449114")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0f12acb9-ebfe-4898-8bfa-19446b38ec8d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "c80b05a2-dbc9-4ef3-9dd4-c8592674eac2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "61456ee9-09b6-4cca-91bd-65983f09642f")
 		)
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
@@ -31423,7 +33199,7 @@
 	)
 	(gr_rect
 		(start 155.33 132.648675)
-		(end 176.33 143.148675)
+		(end 176.33 148.148675)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -31453,6 +33229,366 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "MESSIËR"
+		(at 183.5 91.505875 90)
+		(layer "F.SilkS")
+		(uuid "0503c225-3b18-4b6c-bf8d-74203f472f6d")
+		(effects
+			(font
+				(face "Edit Undo Line BRK")
+				(size 5 6)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+		(render_cache "MESSIËR" 90
+			(polygon
+				(pts
+					(xy 180.07568 91.505875) (xy 180.07568 86.253676) (xy 179.758164 86.253676) (xy 179.758164 91.505875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 179.450418 91.505875) (xy 179.450418 86.253676) (xy 179.132903 86.253676) (xy 179.132903 91.505875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.825157 88.504618) (xy 178.825157 86.253676) (xy 178.507641 86.253676) (xy 178.507641 88.504618)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.825157 91.505875) (xy 178.825157 89.254932) (xy 178.507641 89.254932) (xy 178.507641 91.505875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.65 91.505875) (xy 182.65 89.993523) (xy 182.332484 89.993523) (xy 182.332484 91.505875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.199895 91.505875) (xy 178.199895 89.993523) (xy 177.882379 89.993523) (xy 177.882379 91.505875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.774214 91.505875) (xy 180.774214 89.993523) (xy 180.456699 89.993523) (xy 180.456699 91.505875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.199895 87.766028) (xy 178.199895 86.253676) (xy 177.882379 86.253676) (xy 177.882379 87.766028)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.024738 91.505875) (xy 182.024738 89.993523) (xy 181.707222 89.993523) (xy 181.707222 91.505875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 181.399476 91.505875) (xy 181.399476 89.993523) (xy 181.08196 89.993523) (xy 181.08196 91.505875)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.65 87.766028) (xy 182.65 86.253676) (xy 182.332484 86.253676) (xy 182.332484 87.766028)
+				)
+			)
+			(polygon
+				(pts
+					(xy 181.399476 87.766028) (xy 181.399476 86.253676) (xy 181.08196 86.253676) (xy 181.08196 87.766028)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.774214 87.766028) (xy 180.774214 86.253676) (xy 180.456699 86.253676) (xy 180.456699 87.766028)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.024738 87.766028) (xy 182.024738 86.253676) (xy 181.707222 86.253676) (xy 181.707222 87.766028)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.774214 89.254932) (xy 180.774214 88.504618) (xy 180.456699 88.504618) (xy 180.456699 89.254932)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.024738 85.837487) (xy 182.024738 81.335602) (xy 181.707222 81.335602) (xy 181.707222 85.837487)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.825157 85.837487) (xy 178.825157 81.335602) (xy 178.507641 81.335602) (xy 178.507641 85.837487)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.199895 85.087172) (xy 178.199895 81.335602) (xy 177.882379 81.335602) (xy 177.882379 85.087172)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.65 85.087172) (xy 182.65 81.335602) (xy 182.332484 81.335602) (xy 182.332484 85.087172)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.07568 85.837487) (xy 180.07568 82.83623) (xy 179.758164 82.83623) (xy 179.758164 85.837487)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.774214 85.837487) (xy 180.774214 82.83623) (xy 180.456699 82.83623) (xy 180.456699 85.837487)
+				)
+			)
+			(polygon
+				(pts
+					(xy 179.450418 85.837487) (xy 179.450418 84.325135) (xy 179.132903 84.325135) (xy 179.132903 85.837487)
+				)
+			)
+			(polygon
+				(pts
+					(xy 181.399476 85.837487) (xy 181.399476 84.325135) (xy 181.08196 84.325135) (xy 181.08196 85.837487)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.024738 80.925274) (xy 182.024738 76.42339) (xy 181.707222 76.42339) (xy 181.707222 80.925274)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.825157 80.925274) (xy 178.825157 76.42339) (xy 178.507641 76.42339) (xy 178.507641 80.925274)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.774214 80.17496) (xy 180.774214 76.42339) (xy 180.456699 76.42339) (xy 180.456699 80.17496)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.199895 80.17496) (xy 178.199895 76.42339) (xy 177.882379 76.42339) (xy 177.882379 80.17496)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.07568 80.925274) (xy 180.07568 77.173704) (xy 179.758164 77.173704) (xy 179.758164 80.925274)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.65 80.925274) (xy 182.65 77.173704) (xy 182.332484 77.173704) (xy 182.332484 80.925274)
+				)
+			)
+			(polygon
+				(pts
+					(xy 179.450418 80.925274) (xy 179.450418 79.412923) (xy 179.132903 79.412923) (xy 179.132903 80.925274)
+				)
+			)
+			(polygon
+				(pts
+					(xy 181.399476 77.935742) (xy 181.399476 76.42339) (xy 181.08196 76.42339) (xy 181.08196 77.935742)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.024738 76.013062) (xy 182.024738 71.511178) (xy 181.707222 71.511178) (xy 181.707222 76.013062)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.825157 76.013062) (xy 178.825157 71.511178) (xy 178.507641 71.511178) (xy 178.507641 76.013062)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.774214 75.262748) (xy 180.774214 71.511178) (xy 180.456699 71.511178) (xy 180.456699 75.262748)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.199895 75.262748) (xy 178.199895 71.511178) (xy 177.882379 71.511178) (xy 177.882379 75.262748)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.07568 76.013062) (xy 180.07568 72.261492) (xy 179.758164 72.261492) (xy 179.758164 76.013062)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.65 76.013062) (xy 182.65 72.261492) (xy 182.332484 72.261492) (xy 182.332484 76.013062)
+				)
+			)
+			(polygon
+				(pts
+					(xy 179.450418 76.013062) (xy 179.450418 74.500711) (xy 179.132903 74.500711) (xy 179.132903 76.013062)
+				)
+			)
+			(polygon
+				(pts
+					(xy 181.399476 73.02353) (xy 181.399476 71.511178) (xy 181.08196 71.511178) (xy 181.08196 73.02353)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.65 71.10085) (xy 182.65 66.598966) (xy 182.332484 66.598966) (xy 182.332484 71.10085)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.024738 71.10085) (xy 182.024738 66.598966) (xy 181.707222 66.598966) (xy 181.707222 71.10085)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.825157 71.10085) (xy 178.825157 66.598966) (xy 178.507641 66.598966) (xy 178.507641 71.10085)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.199895 71.10085) (xy 178.199895 66.598966) (xy 177.882379 66.598966) (xy 177.882379 71.10085)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.07568 69.600222) (xy 180.07568 68.08787) (xy 179.758164 68.08787) (xy 179.758164 69.600222)
+				)
+			)
+			(polygon
+				(pts
+					(xy 181.399476 69.600222) (xy 181.399476 68.08787) (xy 181.08196 68.08787) (xy 181.08196 69.600222)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.774214 69.600222) (xy 180.774214 68.08787) (xy 180.456699 68.08787) (xy 180.456699 69.600222)
+				)
+			)
+			(polygon
+				(pts
+					(xy 179.450418 69.600222) (xy 179.450418 68.08787) (xy 179.132903 68.08787) (xy 179.132903 69.600222)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.024738 66.188638) (xy 182.024738 61.686754) (xy 181.707222 61.686754) (xy 181.707222 66.188638)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.825157 66.188638) (xy 178.825157 61.686754) (xy 178.507641 61.686754) (xy 178.507641 66.188638)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.199895 65.438324) (xy 178.199895 61.686754) (xy 177.882379 61.686754) (xy 177.882379 65.438324)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.65 65.438324) (xy 182.65 61.686754) (xy 182.332484 61.686754) (xy 182.332484 65.438324)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.774214 66.188638) (xy 180.774214 63.187382) (xy 180.456699 63.187382) (xy 180.456699 66.188638)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.07568 66.188638) (xy 180.07568 63.187382) (xy 179.758164 63.187382) (xy 179.758164 66.188638)
+				)
+			)
+			(polygon
+				(pts
+					(xy 181.399476 66.188638) (xy 181.399476 64.68801) (xy 181.08196 64.68801) (xy 181.08196 66.188638)
+				)
+			)
+			(polygon
+				(pts
+					(xy 179.450418 66.188638) (xy 179.450418 64.68801) (xy 179.132903 64.68801) (xy 179.132903 66.188638)
+				)
+			)
+			(polygon
+				(pts
+					(xy 176.944487 63.187382) (xy 176.944487 62.437068) (xy 176.626971 62.437068) (xy 176.626971 63.187382)
+				)
+			)
+			(polygon
+				(pts
+					(xy 176.944487 65.438324) (xy 176.944487 64.68801) (xy 176.626971 64.68801) (xy 176.626971 65.438324)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.07568 61.276426) (xy 180.07568 56.774542) (xy 179.758164 56.774542) (xy 179.758164 61.276426)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.825157 61.276426) (xy 178.825157 56.774542) (xy 178.507641 56.774542) (xy 178.507641 61.276426)
+				)
+			)
+			(polygon
+				(pts
+					(xy 178.199895 61.276426) (xy 178.199895 57.524856) (xy 177.882379 57.524856) (xy 177.882379 61.276426)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.774214 61.276426) (xy 180.774214 57.524856) (xy 180.456699 57.524856) (xy 180.456699 61.276426)
+				)
+			)
+			(polygon
+				(pts
+					(xy 181.399476 59.025484) (xy 181.399476 56.774542) (xy 181.08196 56.774542) (xy 181.08196 59.025484)
+				)
+			)
+			(polygon
+				(pts
+					(xy 179.450418 58.286893) (xy 179.450418 56.774542) (xy 179.132903 56.774542) (xy 179.132903 58.286893)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.65 61.276426) (xy 182.65 59.764074) (xy 182.332484 59.764074) (xy 182.332484 61.276426)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.024738 58.286893) (xy 182.024738 56.774542) (xy 181.707222 56.774542) (xy 181.707222 58.286893)
+				)
+			)
+			(polygon
+				(pts
+					(xy 179.450418 61.276426) (xy 179.450418 59.764074) (xy 179.132903 59.764074) (xy 179.132903 61.276426)
+				)
+			)
+			(polygon
+				(pts
+					(xy 181.399476 61.276426) (xy 181.399476 59.764074) (xy 181.08196 59.764074) (xy 181.08196 61.276426)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.65 58.286893) (xy 182.65 56.774542) (xy 182.332484 56.774542) (xy 182.332484 58.286893)
+				)
+			)
+			(polygon
+				(pts
+					(xy 182.024738 61.276426) (xy 182.024738 59.764074) (xy 181.707222 59.764074) (xy 181.707222 61.276426)
+				)
+			)
 		)
 	)
 	(gr_text "GND"
@@ -31540,361 +33676,361 @@
 		)
 	)
 	(gr_text "MESSIËR"
-		(at 152.25 148.005875 0)
+		(at 104.5 56.755875 270)
 		(layer "F.SilkS")
 		(uuid "cb4f6939-7573-43e7-9f00-6eaaf785ec62")
 		(effects
 			(font
 				(face "Edit Undo Line BRK")
-				(size 3 4)
+				(size 5 6)
 				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
-		(render_cache "MESSIËR" 0
+		(render_cache "MESSIËR" 270
 			(polygon
 				(pts
-					(xy 152.25 145.951283) (xy 155.751465 145.951283) (xy 155.751465 145.760773) (xy 152.25 145.760773)
+					(xy 107.924319 56.755875) (xy 107.924319 62.008073) (xy 108.241835 62.008073) (xy 108.241835 56.755875)
 				)
 			)
 			(polygon
 				(pts
-					(xy 152.25 145.576126) (xy 155.751465 145.576126) (xy 155.751465 145.385616) (xy 152.25 145.385616)
+					(xy 108.549581 56.755875) (xy 108.549581 62.008073) (xy 108.867096 62.008073) (xy 108.867096 56.755875)
 				)
 			)
 			(polygon
 				(pts
-					(xy 154.250837 145.200969) (xy 155.751465 145.200969) (xy 155.751465 145.010459) (xy 154.250837 145.010459)
+					(xy 109.174842 59.757131) (xy 109.174842 62.008073) (xy 109.492358 62.008073) (xy 109.492358 59.757131)
 				)
 			)
 			(polygon
 				(pts
-					(xy 152.25 145.200969) (xy 153.750628 145.200969) (xy 153.750628 145.010459) (xy 152.25 145.010459)
+					(xy 109.174842 56.755875) (xy 109.174842 59.006817) (xy 109.492358 59.006817) (xy 109.492358 56.755875)
 				)
 			)
 			(polygon
 				(pts
-					(xy 152.25 147.495875) (xy 153.258234 147.495875) (xy 153.258234 147.305365) (xy 152.25 147.305365)
+					(xy 105.35 56.755875) (xy 105.35 58.268226) (xy 105.667515 58.268226) (xy 105.667515 56.755875)
 				)
 			)
 			(polygon
 				(pts
-					(xy 152.25 144.825812) (xy 153.258234 144.825812) (xy 153.258234 144.635302) (xy 152.25 144.635302)
+					(xy 109.800104 56.755875) (xy 109.800104 58.268226) (xy 110.11762 58.268226) (xy 110.11762 56.755875)
 				)
 			)
 			(polygon
 				(pts
-					(xy 152.25 146.370403) (xy 153.258234 146.370403) (xy 153.258234 146.179894) (xy 152.25 146.179894)
+					(xy 107.225785 56.755875) (xy 107.225785 58.268226) (xy 107.5433 58.268226) (xy 107.5433 56.755875)
 				)
 			)
 			(polygon
 				(pts
-					(xy 154.74323 144.825812) (xy 155.751465 144.825812) (xy 155.751465 144.635302) (xy 154.74323 144.635302)
+					(xy 109.800104 60.495721) (xy 109.800104 62.008073) (xy 110.11762 62.008073) (xy 110.11762 60.495721)
 				)
 			)
 			(polygon
 				(pts
-					(xy 152.25 147.120717) (xy 153.258234 147.120717) (xy 153.258234 146.930208) (xy 152.25 146.930208)
+					(xy 105.975261 56.755875) (xy 105.975261 58.268226) (xy 106.292777 58.268226) (xy 106.292777 56.755875)
 				)
 			)
 			(polygon
 				(pts
-					(xy 152.25 146.74556) (xy 153.258234 146.74556) (xy 153.258234 146.555051) (xy 152.25 146.555051)
+					(xy 106.600523 56.755875) (xy 106.600523 58.268226) (xy 106.918039 58.268226) (xy 106.918039 56.755875)
 				)
 			)
 			(polygon
 				(pts
-					(xy 154.74323 147.495875) (xy 155.751465 147.495875) (xy 155.751465 147.305365) (xy 154.74323 147.305365)
+					(xy 105.35 60.495721) (xy 105.35 62.008073) (xy 105.667515 62.008073) (xy 105.667515 60.495721)
 				)
 			)
 			(polygon
 				(pts
-					(xy 154.74323 146.74556) (xy 155.751465 146.74556) (xy 155.751465 146.555051) (xy 154.74323 146.555051)
+					(xy 106.600523 60.495721) (xy 106.600523 62.008073) (xy 106.918039 62.008073) (xy 106.918039 60.495721)
 				)
 			)
 			(polygon
 				(pts
-					(xy 154.74323 146.370403) (xy 155.751465 146.370403) (xy 155.751465 146.179894) (xy 154.74323 146.179894)
+					(xy 107.225785 60.495721) (xy 107.225785 62.008073) (xy 107.5433 62.008073) (xy 107.5433 60.495721)
 				)
 			)
 			(polygon
 				(pts
-					(xy 154.74323 147.120717) (xy 155.751465 147.120717) (xy 155.751465 146.930208) (xy 154.74323 146.930208)
+					(xy 105.975261 60.495721) (xy 105.975261 62.008073) (xy 106.292777 62.008073) (xy 106.292777 60.495721)
 				)
 			)
 			(polygon
 				(pts
-					(xy 153.750628 146.370403) (xy 154.250837 146.370403) (xy 154.250837 146.179894) (xy 153.750628 146.179894)
+					(xy 107.225785 59.006817) (xy 107.225785 59.757131) (xy 107.5433 59.757131) (xy 107.5433 59.006817)
 				)
 			)
 			(polygon
 				(pts
-					(xy 156.028925 147.120717) (xy 159.030181 147.120717) (xy 159.030181 146.930208) (xy 156.028925 146.930208)
+					(xy 105.975261 62.424262) (xy 105.975261 66.926147) (xy 106.292777 66.926147) (xy 106.292777 62.424262)
 				)
 			)
 			(polygon
 				(pts
-					(xy 156.028925 145.200969) (xy 159.030181 145.200969) (xy 159.030181 145.010459) (xy 156.028925 145.010459)
+					(xy 109.174842 62.424262) (xy 109.174842 66.926147) (xy 109.492358 66.926147) (xy 109.492358 62.424262)
 				)
 			)
 			(polygon
 				(pts
-					(xy 156.529134 144.825812) (xy 159.030181 144.825812) (xy 159.030181 144.635302) (xy 156.529134 144.635302)
+					(xy 109.800104 63.174577) (xy 109.800104 66.926147) (xy 110.11762 66.926147) (xy 110.11762 63.174577)
 				)
 			)
 			(polygon
 				(pts
-					(xy 156.529134 147.495875) (xy 159.030181 147.495875) (xy 159.030181 147.305365) (xy 156.529134 147.305365)
+					(xy 105.35 63.174577) (xy 105.35 66.926147) (xy 105.667515 66.926147) (xy 105.667515 63.174577)
 				)
 			)
 			(polygon
 				(pts
-					(xy 156.028925 145.951283) (xy 158.029762 145.951283) (xy 158.029762 145.760773) (xy 156.028925 145.760773)
+					(xy 107.924319 62.424262) (xy 107.924319 65.425519) (xy 108.241835 65.425519) (xy 108.241835 62.424262)
 				)
 			)
 			(polygon
 				(pts
-					(xy 156.028925 146.370403) (xy 158.029762 146.370403) (xy 158.029762 146.179894) (xy 156.028925 146.179894)
+					(xy 107.225785 62.424262) (xy 107.225785 65.425519) (xy 107.5433 65.425519) (xy 107.5433 62.424262)
 				)
 			)
 			(polygon
 				(pts
-					(xy 156.028925 145.576126) (xy 157.037159 145.576126) (xy 157.037159 145.385616) (xy 156.028925 145.385616)
+					(xy 108.549581 62.424262) (xy 108.549581 63.936614) (xy 108.867096 63.936614) (xy 108.867096 62.424262)
 				)
 			)
 			(polygon
 				(pts
-					(xy 156.028925 146.74556) (xy 157.037159 146.74556) (xy 157.037159 146.555051) (xy 156.028925 146.555051)
+					(xy 106.600523 62.424262) (xy 106.600523 63.936614) (xy 106.918039 63.936614) (xy 106.918039 62.424262)
 				)
 			)
 			(polygon
 				(pts
-					(xy 159.303733 147.120717) (xy 162.304989 147.120717) (xy 162.304989 146.930208) (xy 159.303733 146.930208)
+					(xy 105.975261 67.336475) (xy 105.975261 71.838359) (xy 106.292777 71.838359) (xy 106.292777 67.336475)
 				)
 			)
 			(polygon
 				(pts
-					(xy 159.303733 145.200969) (xy 162.304989 145.200969) (xy 162.304989 145.010459) (xy 159.303733 145.010459)
+					(xy 109.174842 67.336475) (xy 109.174842 71.838359) (xy 109.492358 71.838359) (xy 109.492358 67.336475)
 				)
 			)
 			(polygon
 				(pts
-					(xy 159.803942 146.370403) (xy 162.304989 146.370403) (xy 162.304989 146.179894) (xy 159.803942 146.179894)
+					(xy 107.225785 68.086789) (xy 107.225785 71.838359) (xy 107.5433 71.838359) (xy 107.5433 68.086789)
 				)
 			)
 			(polygon
 				(pts
-					(xy 159.803942 144.825812) (xy 162.304989 144.825812) (xy 162.304989 144.635302) (xy 159.803942 144.635302)
+					(xy 109.800104 68.086789) (xy 109.800104 71.838359) (xy 110.11762 71.838359) (xy 110.11762 68.086789)
 				)
 			)
 			(polygon
 				(pts
-					(xy 159.303733 145.951283) (xy 161.80478 145.951283) (xy 161.80478 145.760773) (xy 159.303733 145.760773)
+					(xy 107.924319 67.336475) (xy 107.924319 71.088045) (xy 108.241835 71.088045) (xy 108.241835 67.336475)
 				)
 			)
 			(polygon
 				(pts
-					(xy 159.303733 147.495875) (xy 161.80478 147.495875) (xy 161.80478 147.305365) (xy 159.303733 147.305365)
+					(xy 105.35 67.336475) (xy 105.35 71.088045) (xy 105.667515 71.088045) (xy 105.667515 67.336475)
 				)
 			)
 			(polygon
 				(pts
-					(xy 159.303733 145.576126) (xy 160.311967 145.576126) (xy 160.311967 145.385616) (xy 159.303733 145.385616)
+					(xy 108.549581 67.336475) (xy 108.549581 68.848826) (xy 108.867096 68.848826) (xy 108.867096 67.336475)
 				)
 			)
 			(polygon
 				(pts
-					(xy 161.296755 146.74556) (xy 162.304989 146.74556) (xy 162.304989 146.555051) (xy 161.296755 146.555051)
+					(xy 106.600523 70.326007) (xy 106.600523 71.838359) (xy 106.918039 71.838359) (xy 106.918039 70.326007)
 				)
 			)
 			(polygon
 				(pts
-					(xy 162.578541 147.120717) (xy 165.579797 147.120717) (xy 165.579797 146.930208) (xy 162.578541 146.930208)
+					(xy 105.975261 72.248687) (xy 105.975261 76.750571) (xy 106.292777 76.750571) (xy 106.292777 72.248687)
 				)
 			)
 			(polygon
 				(pts
-					(xy 162.578541 145.200969) (xy 165.579797 145.200969) (xy 165.579797 145.010459) (xy 162.578541 145.010459)
+					(xy 109.174842 72.248687) (xy 109.174842 76.750571) (xy 109.492358 76.750571) (xy 109.492358 72.248687)
 				)
 			)
 			(polygon
 				(pts
-					(xy 163.07875 146.370403) (xy 165.579797 146.370403) (xy 165.579797 146.179894) (xy 163.07875 146.179894)
+					(xy 107.225785 72.999001) (xy 107.225785 76.750571) (xy 107.5433 76.750571) (xy 107.5433 72.999001)
 				)
 			)
 			(polygon
 				(pts
-					(xy 163.07875 144.825812) (xy 165.579797 144.825812) (xy 165.579797 144.635302) (xy 163.07875 144.635302)
+					(xy 109.800104 72.999001) (xy 109.800104 76.750571) (xy 110.11762 76.750571) (xy 110.11762 72.999001)
 				)
 			)
 			(polygon
 				(pts
-					(xy 162.578541 145.951283) (xy 165.079588 145.951283) (xy 165.079588 145.760773) (xy 162.578541 145.760773)
+					(xy 107.924319 72.248687) (xy 107.924319 76.000257) (xy 108.241835 76.000257) (xy 108.241835 72.248687)
 				)
 			)
 			(polygon
 				(pts
-					(xy 162.578541 147.495875) (xy 165.079588 147.495875) (xy 165.079588 147.305365) (xy 162.578541 147.305365)
+					(xy 105.35 72.248687) (xy 105.35 76.000257) (xy 105.667515 76.000257) (xy 105.667515 72.248687)
 				)
 			)
 			(polygon
 				(pts
-					(xy 162.578541 145.576126) (xy 163.586775 145.576126) (xy 163.586775 145.385616) (xy 162.578541 145.385616)
+					(xy 108.549581 72.248687) (xy 108.549581 73.761038) (xy 108.867096 73.761038) (xy 108.867096 72.248687)
 				)
 			)
 			(polygon
 				(pts
-					(xy 164.571563 146.74556) (xy 165.579797 146.74556) (xy 165.579797 146.555051) (xy 164.571563 146.555051)
+					(xy 106.600523 75.238219) (xy 106.600523 76.750571) (xy 106.918039 76.750571) (xy 106.918039 75.238219)
 				)
 			)
 			(polygon
 				(pts
-					(xy 165.853349 147.495875) (xy 168.854605 147.495875) (xy 168.854605 147.305365) (xy 165.853349 147.305365)
+					(xy 105.35 77.160899) (xy 105.35 81.662783) (xy 105.667515 81.662783) (xy 105.667515 77.160899)
 				)
 			)
 			(polygon
 				(pts
-					(xy 165.853349 147.120717) (xy 168.854605 147.120717) (xy 168.854605 146.930208) (xy 165.853349 146.930208)
+					(xy 105.975261 77.160899) (xy 105.975261 81.662783) (xy 106.292777 81.662783) (xy 106.292777 77.160899)
 				)
 			)
 			(polygon
 				(pts
-					(xy 165.853349 145.200969) (xy 168.854605 145.200969) (xy 168.854605 145.010459) (xy 165.853349 145.010459)
+					(xy 109.174842 77.160899) (xy 109.174842 81.662783) (xy 109.492358 81.662783) (xy 109.492358 77.160899)
 				)
 			)
 			(polygon
 				(pts
-					(xy 165.853349 144.825812) (xy 168.854605 144.825812) (xy 168.854605 144.635302) (xy 165.853349 144.635302)
+					(xy 109.800104 77.160899) (xy 109.800104 81.662783) (xy 110.11762 81.662783) (xy 110.11762 77.160899)
 				)
 			)
 			(polygon
 				(pts
-					(xy 166.853768 145.951283) (xy 167.862002 145.951283) (xy 167.862002 145.760773) (xy 166.853768 145.760773)
+					(xy 107.924319 78.661527) (xy 107.924319 80.173879) (xy 108.241835 80.173879) (xy 108.241835 78.661527)
 				)
 			)
 			(polygon
 				(pts
-					(xy 166.853768 146.74556) (xy 167.862002 146.74556) (xy 167.862002 146.555051) (xy 166.853768 146.555051)
+					(xy 106.600523 78.661527) (xy 106.600523 80.173879) (xy 106.918039 80.173879) (xy 106.918039 78.661527)
 				)
 			)
 			(polygon
 				(pts
-					(xy 166.853768 146.370403) (xy 167.862002 146.370403) (xy 167.862002 146.179894) (xy 166.853768 146.179894)
+					(xy 107.225785 78.661527) (xy 107.225785 80.173879) (xy 107.5433 80.173879) (xy 107.5433 78.661527)
 				)
 			)
 			(polygon
 				(pts
-					(xy 166.853768 145.576126) (xy 167.862002 145.576126) (xy 167.862002 145.385616) (xy 166.853768 145.385616)
+					(xy 108.549581 78.661527) (xy 108.549581 80.173879) (xy 108.867096 80.173879) (xy 108.867096 78.661527)
 				)
 			)
 			(polygon
 				(pts
-					(xy 169.128157 147.120717) (xy 172.129413 147.120717) (xy 172.129413 146.930208) (xy 169.128157 146.930208)
+					(xy 105.975261 82.073111) (xy 105.975261 86.574995) (xy 106.292777 86.574995) (xy 106.292777 82.073111)
 				)
 			)
 			(polygon
 				(pts
-					(xy 169.128157 145.200969) (xy 172.129413 145.200969) (xy 172.129413 145.010459) (xy 169.128157 145.010459)
+					(xy 109.174842 82.073111) (xy 109.174842 86.574995) (xy 109.492358 86.574995) (xy 109.492358 82.073111)
 				)
 			)
 			(polygon
 				(pts
-					(xy 169.628367 144.825812) (xy 172.129413 144.825812) (xy 172.129413 144.635302) (xy 169.628367 144.635302)
+					(xy 109.800104 82.823425) (xy 109.800104 86.574995) (xy 110.11762 86.574995) (xy 110.11762 82.823425)
 				)
 			)
 			(polygon
 				(pts
-					(xy 169.628367 147.495875) (xy 172.129413 147.495875) (xy 172.129413 147.305365) (xy 169.628367 147.305365)
+					(xy 105.35 82.823425) (xy 105.35 86.574995) (xy 105.667515 86.574995) (xy 105.667515 82.823425)
 				)
 			)
 			(polygon
 				(pts
-					(xy 169.128157 146.370403) (xy 171.128995 146.370403) (xy 171.128995 146.179894) (xy 169.128157 146.179894)
+					(xy 107.225785 82.073111) (xy 107.225785 85.074367) (xy 107.5433 85.074367) (xy 107.5433 82.073111)
 				)
 			)
 			(polygon
 				(pts
-					(xy 169.128157 145.951283) (xy 171.128995 145.951283) (xy 171.128995 145.760773) (xy 169.128157 145.760773)
+					(xy 107.924319 82.073111) (xy 107.924319 85.074367) (xy 108.241835 85.074367) (xy 108.241835 82.073111)
 				)
 			)
 			(polygon
 				(pts
-					(xy 169.128157 146.74556) (xy 170.128576 146.74556) (xy 170.128576 146.555051) (xy 169.128157 146.555051)
+					(xy 106.600523 82.073111) (xy 106.600523 83.573739) (xy 106.918039 83.573739) (xy 106.918039 82.073111)
 				)
 			)
 			(polygon
 				(pts
-					(xy 169.128157 145.576126) (xy 170.128576 145.576126) (xy 170.128576 145.385616) (xy 169.128157 145.385616)
+					(xy 108.549581 82.073111) (xy 108.549581 83.573739) (xy 108.867096 83.573739) (xy 108.867096 82.073111)
 				)
 			)
 			(polygon
 				(pts
-					(xy 171.128995 144.072567) (xy 171.629204 144.072567) (xy 171.629204 143.882057) (xy 171.128995 143.882057)
+					(xy 111.055512 85.074367) (xy 111.055512 85.824681) (xy 111.373028 85.824681) (xy 111.373028 85.074367)
 				)
 			)
 			(polygon
 				(pts
-					(xy 169.628367 144.072567) (xy 170.128576 144.072567) (xy 170.128576 143.882057) (xy 169.628367 143.882057)
+					(xy 111.055512 82.823425) (xy 111.055512 83.573739) (xy 111.373028 83.573739) (xy 111.373028 82.823425)
 				)
 			)
 			(polygon
 				(pts
-					(xy 172.402965 145.951283) (xy 175.404221 145.951283) (xy 175.404221 145.760773) (xy 172.402965 145.760773)
+					(xy 107.924319 86.985323) (xy 107.924319 91.487207) (xy 108.241835 91.487207) (xy 108.241835 86.985323)
 				)
 			)
 			(polygon
 				(pts
-					(xy 172.402965 145.200969) (xy 175.404221 145.200969) (xy 175.404221 145.010459) (xy 172.402965 145.010459)
+					(xy 109.174842 86.985323) (xy 109.174842 91.487207) (xy 109.492358 91.487207) (xy 109.492358 86.985323)
 				)
 			)
 			(polygon
 				(pts
-					(xy 172.402965 144.825812) (xy 174.904012 144.825812) (xy 174.904012 144.635302) (xy 172.402965 144.635302)
+					(xy 109.800104 86.985323) (xy 109.800104 90.736893) (xy 110.11762 90.736893) (xy 110.11762 86.985323)
 				)
 			)
 			(polygon
 				(pts
-					(xy 172.402965 146.370403) (xy 174.904012 146.370403) (xy 174.904012 146.179894) (xy 172.402965 146.179894)
+					(xy 107.225785 86.985323) (xy 107.225785 90.736893) (xy 107.5433 90.736893) (xy 107.5433 86.985323)
 				)
 			)
 			(polygon
 				(pts
-					(xy 173.903593 146.74556) (xy 175.404221 146.74556) (xy 175.404221 146.555051) (xy 173.903593 146.555051)
+					(xy 106.600523 89.236265) (xy 106.600523 91.487207) (xy 106.918039 91.487207) (xy 106.918039 89.236265)
 				)
 			)
 			(polygon
 				(pts
-					(xy 174.395987 145.576126) (xy 175.404221 145.576126) (xy 175.404221 145.385616) (xy 174.395987 145.385616)
+					(xy 108.549581 89.974856) (xy 108.549581 91.487207) (xy 108.867096 91.487207) (xy 108.867096 89.974856)
 				)
 			)
 			(polygon
 				(pts
-					(xy 172.402965 147.495875) (xy 173.4112 147.495875) (xy 173.4112 147.305365) (xy 172.402965 147.305365)
+					(xy 105.35 86.985323) (xy 105.35 88.497675) (xy 105.667515 88.497675) (xy 105.667515 86.985323)
 				)
 			)
 			(polygon
 				(pts
-					(xy 174.395987 147.120717) (xy 175.404221 147.120717) (xy 175.404221 146.930208) (xy 174.395987 146.930208)
+					(xy 105.975261 89.974856) (xy 105.975261 91.487207) (xy 106.292777 91.487207) (xy 106.292777 89.974856)
 				)
 			)
 			(polygon
 				(pts
-					(xy 172.402965 145.576126) (xy 173.4112 145.576126) (xy 173.4112 145.385616) (xy 172.402965 145.385616)
+					(xy 108.549581 86.985323) (xy 108.549581 88.497675) (xy 108.867096 88.497675) (xy 108.867096 86.985323)
 				)
 			)
 			(polygon
 				(pts
-					(xy 172.402965 146.74556) (xy 173.4112 146.74556) (xy 173.4112 146.555051) (xy 172.402965 146.555051)
+					(xy 106.600523 86.985323) (xy 106.600523 88.497675) (xy 106.918039 88.497675) (xy 106.918039 86.985323)
 				)
 			)
 			(polygon
 				(pts
-					(xy 174.395987 147.495875) (xy 175.404221 147.495875) (xy 175.404221 147.305365) (xy 174.395987 147.305365)
+					(xy 105.35 89.974856) (xy 105.35 91.487207) (xy 105.667515 91.487207) (xy 105.667515 89.974856)
 				)
 			)
 			(polygon
 				(pts
-					(xy 172.402965 147.120717) (xy 173.4112 147.120717) (xy 173.4112 146.930208) (xy 172.402965 146.930208)
+					(xy 105.975261 86.985323) (xy 105.975261 88.497675) (xy 106.292777 88.497675) (xy 106.292777 86.985323)
 				)
 			)
 		)
@@ -33823,7 +35959,7 @@
 		)
 		(polygon
 			(pts
-				(xy 155.38 132.798675) (xy 175.88 132.798675) (xy 175.88 142.798675) (xy 155.38 142.798675)
+				(xy 155.38 132.548675) (xy 176.38 132.548675) (xy 176.38 148.298675) (xy 155.38 148.298675)
 			)
 		)
 	)
@@ -33869,26 +36005,6 @@
 		(uuid "97e6b091-2365-4dbb-bad7-c1a32cd535ba")
 		(members "02a526fc-187c-4a7a-b0ae-988c7aef7dcd" "2793de51-547f-48ee-a3f7-1f9886be4b6f"
 			"c0a83ed8-be74-406d-b399-d2a83bf8db0b"
-		)
-	)
-	(group ""
-		(uuid "a445f8b5-94d3-4eba-a765-6962a37628a1")
-		(members "03bbdf27-d483-49da-af45-91e005ad4135" "131d015c-6cff-4ce0-bc3d-84f1d872fafa"
-			"159ea9d5-b893-4e50-9b8e-4ba3b563b357" "17c8f50a-f4ba-47f9-9a60-1e299f3a217e"
-			"184aa26a-1baa-4221-8dfd-ddd7405c1cbd" "220cb275-e96a-4b78-9489-c9a550dc9773"
-			"2314a3c7-cd7a-488c-adaa-b7397af67373" "239c8290-dd5d-4f8f-8697-8c6dcd524629"
-			"296d2e9b-0f1f-43df-959d-b0469f43b711" "2b5f470d-bb86-4c8f-9b63-5b128e04096a"
-			"3050c1d6-7f21-44bd-9c7b-4c0f98f733b7" "4350b962-2a01-4968-b81d-9b689fe5dbe7"
-			"46e115c9-70ba-4993-96a1-07d862377f80" "4eff8db9-d2ad-497c-9131-b10dca9c94b9"
-			"53f89688-d3fc-4b98-89f4-36e794effb6c" "61a51e69-2f34-4013-af8a-514b811f4f5a"
-			"62b28f59-3908-4890-8ff7-21b603741c7a" "783a6592-ccbd-4ed8-8434-2a823ee807cf"
-			"8871fe22-60b6-4e3e-a39c-bb48ab544b7b" "94f525af-9c31-484e-99f5-963c22cc54f3"
-			"9ff3efbb-47c6-45fe-82f9-d67b2ab4f85f" "b31bec2f-b1f6-46c2-8ec0-d6fd5832b02b"
-			"b6726078-85c6-438c-b0ce-dba601501939" "b7073929-ab8b-40f2-b87a-035828b2a125"
-			"c4b98a22-c460-47bb-9796-b6d39cd46a20" "c7360ee8-7acb-4352-a141-9dc40b45742e"
-			"d6309ed6-f705-4990-a30c-916d5e0e6078" "d8f733e5-2735-4a32-9de1-b9dcc24298e8"
-			"e2fd3ea8-881d-4ed2-992f-88c791bc5047" "ee105be4-6af8-47c9-a73d-102dfbe1911d"
-			"f9470c06-c75f-4f46-a396-a00c4fd289a3" "fe5b35d6-3657-466e-b49c-8a6e9ecd22a1"
 		)
 	)
 	(group ""
@@ -33938,10 +36054,6 @@
 		(members "4061ae26-bb99-4165-92d9-60e948e6dda4" "d366d9f5-37a7-458d-91d1-b28cc70108a4")
 	)
 	(group ""
-		(uuid "0de6fe00-e211-4cba-b81b-5b5de99bc848")
-		(members "af19671d-372b-4d03-bb4c-5ac751627b9f" "de2bf417-e984-496e-bb05-6dcf7d252bb0")
-	)
-	(group ""
 		(uuid "0be63e42-6eae-4873-8f19-13e6157c1721")
 		(members "00554e8c-c0c4-47b5-a1b7-8e70ecb4e57e" "5387c8a8-5438-4b10-a6a9-489578beea65"
 			"97ac6a22-2e6b-4a79-a39c-df98c0bbbd9b" "ac01900d-048a-468d-87f5-12dfeb83c047"
@@ -33952,12 +36064,6 @@
 		(uuid "10a24c2a-3f00-405b-b7d6-06bf43a43ded")
 		(members "0be63e42-6eae-4873-8f19-13e6157c1721" "bdd1af62-5847-45c5-aa34-9de0c9ae1373"
 			"d3261874-c126-4574-9857-61fb5dd3b494"
-		)
-	)
-	(group ""
-		(uuid "af19671d-372b-4d03-bb4c-5ac751627b9f")
-		(members "5655413a-010b-47d2-b380-8594aa17af0f" "a445f8b5-94d3-4eba-a765-6962a37628a1"
-			"b782933b-cc4e-4b99-811a-1e20c01a178c"
 		)
 	)
 	(group ""
