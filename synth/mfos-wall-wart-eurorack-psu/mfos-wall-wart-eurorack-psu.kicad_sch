@@ -7,7 +7,7 @@
 	(title_block
 		(title "MFOS Wall-Wart PSU (Eurorack)")
 		(date "2024-07-06")
-		(rev "1.0.0")
+		(rev "2.0.0")
 		(company "MESSIËR")
 		(comment 3 "Based on Ray Wilson's MFOS wall-wart circuit")
 		(comment 4 "Author: Chris Karcz")
