@@ -3916,16 +3916,6 @@
 		)
 		(uuid "5dc52938-c84e-417a-8aff-60224f2cb315")
 	)
-	(wire
-		(pts
-			(xy 199.39 85.09) (xy 214.63 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dfe67e8-d3d9-48b0-82d1-9c5cd8919117")
-	)
 	(polyline
 		(pts
 			(xy 242.57 134.62) (xy 242.57 135.89)
@@ -4258,7 +4248,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 85.09) (xy 184.15 85.09)
+			(xy 168.91 85.09) (xy 214.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4866,7 +4856,7 @@
 	)
 	(rectangle
 		(start 55.88 123.19)
-		(end 167.64 163.83)
+		(end 207.01 163.83)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5703,7 +5693,7 @@
 				)
 			)
 		)
-		(property "Value" "4049"
+		(property "Value" "4069/HC14"
 			(at 191.77 52.832 0)
 			(effects
 				(font
@@ -6832,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Value" "4049"
+		(property "Value" "4069/HC14"
 			(at 191.77 64.262 0)
 			(effects
 				(font
@@ -7683,7 +7673,7 @@
 				)
 			)
 		)
-		(property "Value" "4049"
+		(property "Value" "4069/HC14"
 			(at 191.77 41.402 0)
 			(effects
 				(font
@@ -7907,7 +7897,7 @@
 	(symbol
 		(lib_id "4xxx:4049")
 		(at 191.77 102.87 0)
-		(unit 5)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7921,7 +7911,7 @@
 				)
 			)
 		)
-		(property "Value" "4049"
+		(property "Value" "4069/HC14"
 			(at 191.77 98.552 0)
 			(effects
 				(font
@@ -8002,7 +7992,7 @@
 			(project "cvbs-decomposer"
 				(path "/60677854-96db-42b6-9827-28cf230d395c"
 					(reference "U3")
-					(unit 5)
+					(unit 4)
 				)
 			)
 		)
@@ -8269,109 +8259,6 @@
 				(path "/60677854-96db-42b6-9827-28cf230d395c"
 					(reference "J9")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "4xxx:4049")
-		(at 191.77 85.09 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9323d35d-3290-4e82-a7a6-9f5732daebb6")
-		(property "Reference" "U3"
-			(at 191.77 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4049"
-			(at 191.77 80.772 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4049ubms.pdf"
-			(at 191.77 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Buffer Inverter"
-			(at 191.77 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93592ef3-02b7-4304-8eda-2f8331fbb1e8")
-		)
-		(pin "15"
-			(uuid "072b914d-38fb-4f7f-a133-74d1184165ad")
-		)
-		(pin "6"
-			(uuid "0f1e560d-7d23-42ef-8f9c-4a1061457eba")
-		)
-		(pin "3"
-			(uuid "d5d2e18c-3cc5-40cd-b55f-29de16a3d666")
-		)
-		(pin "11"
-			(uuid "b68d3cc6-4eb9-4634-82c1-d9ee55233bc8")
-		)
-		(pin "8"
-			(uuid "dfa2383e-c5a3-4003-9cc6-b9b9fdb2a94e")
-		)
-		(pin "12"
-			(uuid "60472b50-6679-4a0b-802d-728afa8267b8")
-		)
-		(pin "14"
-			(uuid "81caf508-bb10-4c33-bd96-59de63108aa2")
-		)
-		(pin "7"
-			(uuid "3c3257fb-21b9-4a9a-ad46-3ab22a48af5a")
-		)
-		(pin "5"
-			(uuid "0ffb80d0-939e-418a-9d00-31551a76d145")
-		)
-		(pin "1"
-			(uuid "9a1cbb18-d289-4f2d-97e1-0f585d82f624")
-		)
-		(pin "9"
-			(uuid "09b0c2ef-d4c2-4e94-abbe-b66b0c869157")
-		)
-		(pin "10"
-			(uuid "e1d0d17b-d433-4bb3-861f-50a4b1041a20")
-		)
-		(pin "4"
-			(uuid "d2272912-4fbb-4c1b-bf8b-04ed4a0d838d")
-		)
-		(instances
-			(project "cvbs-decomposer"
-				(path "/60677854-96db-42b6-9827-28cf230d395c"
-					(reference "U3")
-					(unit 4)
 				)
 			)
 		)
