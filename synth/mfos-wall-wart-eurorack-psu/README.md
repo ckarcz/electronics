@@ -4,4 +4,11 @@ Basic wall wart design but with eurorack power rails + connector. Sub 100mm desi
 
 [Based on Ray Wilson's PSU circuit](https://shop.musicfromouterspace.com/cart/mfos-wall-wart-bipolar-power-supply).
 
-![PCB](./mfos-wall-wart-eurorack-psu.png)
+# Schematic
+![Schematic](./schematic.png)
+
+# PCB
+![PCB](./pcb.png)
+![PCB](./pcb-model-1.png)
+![PCB](./pcb-model-2.png)
+
