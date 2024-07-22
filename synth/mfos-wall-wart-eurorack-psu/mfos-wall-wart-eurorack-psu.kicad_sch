@@ -2564,12 +2564,6 @@
 		(uuid "0596deae-18b9-4686-8d60-b87683b5d475")
 	)
 	(junction
-		(at 60.96 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "088130a1-3972-4c86-b21e-baa13756782e")
-	)
-	(junction
 		(at 99.06 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2622,6 +2616,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27eec8ae-a411-4902-8447-8abc0dbb4e3b")
+	)
+	(junction
+		(at 67.31 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "411235ce-e45c-43b5-a753-61522ce0fe69")
 	)
 	(junction
 		(at 88.9 49.53)
@@ -2834,16 +2834,16 @@
 		(uuid "bb9d0863-5d09-45f3-a397-7ff43750250a")
 	)
 	(junction
-		(at 64.77 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc246a9c-c77c-4005-9db6-4fcfb383d78a")
-	)
-	(junction
 		(at 231.14 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfd1c389-581d-4a90-b2a5-ff5c31ace135")
+	)
+	(junction
+		(at 67.31 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0c2bb1f-8d7a-4916-bdd1-3aa880fa29eb")
 	)
 	(junction
 		(at 152.4 34.29)
@@ -3051,7 +3051,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 57.15) (xy 64.77 62.23)
+			(xy 67.31 57.15) (xy 67.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3078,16 +3078,6 @@
 			(type default)
 		)
 		(uuid "144e07aa-4497-4258-880d-13869430d623")
-	)
-	(wire
-		(pts
-			(xy 60.96 49.53) (xy 88.9 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ce706a-5c14-4c43-96ae-b732980750dd")
 	)
 	(wire
 		(pts
@@ -3361,16 +3351,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 62.23) (xy 73.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3585ce74-5974-4d73-bf9f-e1d61d67c435")
-	)
-	(wire
-		(pts
 			(xy 187.96 71.12) (xy 187.96 72.39)
 		)
 		(stroke
@@ -3611,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 62.23) (xy 64.77 62.23)
+			(xy 55.88 62.23) (xy 67.31 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3688,16 +3668,6 @@
 			(type default)
 		)
 		(uuid "62908d5b-cb6c-4920-9d3e-d9d853257e9e")
-	)
-	(wire
-		(pts
-			(xy 60.96 54.61) (xy 60.96 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64b100ad-e0f8-472f-aad2-2157be0ad11a")
 	)
 	(wire
 		(pts
@@ -3881,6 +3851,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 49.53) (xy 88.9 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dee27ca-d1f7-4d0c-b2f2-ba9d7debc30f")
+	)
+	(wire
+		(pts
 			(xy 198.12 81.28) (xy 204.47 81.28)
 		)
 		(stroke
@@ -4018,6 +3998,16 @@
 			(type default)
 		)
 		(uuid "9375e2c2-4d12-4871-886e-6147971fc41c")
+	)
+	(wire
+		(pts
+			(xy 67.31 49.53) (xy 67.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d972e4-a6cf-4df0-b2d4-5d54aad2b143")
 	)
 	(wire
 		(pts
@@ -4271,6 +4261,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 62.23) (xy 73.66 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e2bcd1-f57f-4923-a876-fbffc3244c6b")
+	)
+	(wire
+		(pts
 			(xy 187.96 35.56) (xy 187.96 34.29)
 		)
 		(stroke
@@ -4451,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 49.53) (xy 60.96 54.61)
+			(xy 60.96 49.53) (xy 60.96 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4501,7 +4501,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 54.61) (xy 64.77 54.61)
+			(xy 60.96 49.53) (xy 67.31 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4819,6 +4819,18 @@
 		)
 		(uuid "fd730e1d-23bf-433a-b12f-f76a31d93333")
 	)
+	(rectangle
+		(start 194.31 33.02)
+		(end 203.2 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1f5d63da-fbde-4988-b0b0-9893322859f2)
+	)
 	(text "+5V DC"
 		(exclude_from_sim no)
 		(at 248.666 62.23 0)
@@ -4829,6 +4841,16 @@
 			(justify left)
 		)
 		(uuid "0c514326-4c1d-4d29-ad31-ff8a6c61ba4e")
+	)
+	(text "(optional load resistors for probing)"
+		(exclude_from_sim no)
+		(at 200.914 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "173bf859-1f86-4e43-8cb3-320a41431928")
 	)
 	(text "CV"
 		(exclude_from_sim no)
@@ -4881,6 +4903,16 @@
 			)
 		)
 		(uuid "3e2ff788-ad75-4406-920b-58fd7a1d157e")
+	)
+	(text "(test points for probing)"
+		(exclude_from_sim no)
+		(at 252.984 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43e3bef7-7307-48a8-84f3-182a4024d22c")
 	)
 	(text "+5V LED"
 		(exclude_from_sim no)
@@ -4956,6 +4988,16 @@
 			(justify left)
 		)
 		(uuid "99e32faf-3c90-49d0-9c39-a677257a529b")
+	)
+	(text "(test points for probing)"
+		(exclude_from_sim no)
+		(at 74.676 52.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0cefae3-bfef-4535-b006-55638e276bfd")
 	)
 	(text "(to eurorack distribution bus...)"
 		(exclude_from_sim no)
@@ -5726,7 +5768,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 64.77 54.61 0)
+		(at 67.31 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5734,7 +5776,7 @@
 		(dnp no)
 		(uuid "251a1921-11f0-4c0c-bcef-95b75265c402")
 		(property "Reference" "TP1"
-			(at 66.04 53.3399 0)
+			(at 68.58 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5786,7 @@
 			)
 		)
 		(property "Value" "12VAC"
-			(at 65.278 54.61 0)
+			(at 67.818 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +5795,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 69.85 54.61 0)
+			(at 72.39 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 54.61 0)
+			(at 72.39 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5813,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 64.77 54.61 0)
+			(at 67.31 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5822,7 @@
 			)
 		)
 		(property "URL" ""
-			(at 64.77 54.61 0)
+			(at 67.31 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8290,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 64.77 57.15 0)
+		(at 67.31 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8256,7 +8298,7 @@
 		(dnp no)
 		(uuid "d625407f-9fae-41d5-9380-9fa7ea3dd77f")
 		(property "Reference" "TP2"
-			(at 66.04 55.8799 0)
+			(at 68.58 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8308,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 65.278 57.15 0)
+			(at 67.818 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8317,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 69.85 57.15 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +8326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 57.15 0)
+			(at 72.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +8335,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 64.77 57.15 0)
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,7 +8344,7 @@
 			)
 		)
 		(property "URL" ""
-			(at 64.77 57.15 0)
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
