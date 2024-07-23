@@ -134,9 +134,9 @@
 	(net 5 "+5V")
 	(net 6 "-12V")
 	(net 7 "Net-(D1-K)")
-	(net 8 "Net-(D9-A)")
-	(net 9 "Net-(D10-A)")
-	(net 10 "Net-(D11-A)")
+	(net 8 "Net-(J1-Pin_5)")
+	(net 9 "Net-(J1-Pin_4)")
+	(net 10 "Net-(J1-Pin_3)")
 	(footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "02a526fc-187c-4a7a-b0ae-988c7aef7dcd")
@@ -3365,7 +3365,7 @@
 				)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "2.4K"
 			(at 5.08 2.5 90)
 			(layer "F.Fab")
 			(uuid "768eda45-e62d-4e12-b703-1deecba74657")
@@ -3402,7 +3402,7 @@
 				)
 			)
 		)
-		(property "Description" "2K Ohm 1/2W 1% Metal Film Resistor"
+		(property "Description" "2.4K Ohm 1/4W 1% Metal Film Resistor (exact value not required)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3415,7 +3415,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.taydaelectronics.com/10-x-resistor-2k-ohm-1-2w-1-metal-film-pkg-of-10.html"
+		(property "URL" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/resistor-2-4k-ohm-1-4w-1-metal-film-pkg-of-10.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5775,7 +5775,7 @@
 		(at 172.9327 145.052 180)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
-		(property "Reference" "D9"
+		(property "Reference" "L3"
 			(at 1.27 -2.96 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6008,7 +6008,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "Net-(D9-A)")
+			(net 8 "Net-(J1-Pin_5)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "eda38e25-bab4-41ca-9f1d-8b0937fad28b")
@@ -9521,7 +9521,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "510"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "890f9e57-a1cc-4e00-b0be-2f050c00d517")
@@ -9558,7 +9558,7 @@
 				)
 			)
 		)
-		(property "Description" "??"
+		(property "Description" "510 Ohm 1/4W 1% Metal Film Resistor (exact value not required)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9571,7 +9571,7 @@
 				)
 			)
 		)
-		(property "URL" "??"
+		(property "URL" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/10-x-resistor-510-ohm-1-4w-1-metal-film-pkg-of-10.html"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9766,7 +9766,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "Net-(D9-A)")
+			(net 8 "Net-(J1-Pin_5)")
 			(pintype "passive")
 			(uuid "e91357f2-9172-4df8-919c-62b8e9385702")
 		)
@@ -10180,7 +10180,7 @@
 				)
 			)
 		)
-		(property "URL" "??"
+		(property "URL" "https://www.amazon.com/gp/product/B0CFYHDC7L/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17611,7 +17611,7 @@
 		(at 172.9327 140.552 180)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
-		(property "Reference" "D10"
+		(property "Reference" "L2"
 			(at 1.27 -2.96 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -17844,7 +17844,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Net-(D10-A)")
+			(net 9 "Net-(J1-Pin_4)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2884f5af-34ef-4715-ae7a-c632362e21f4")
@@ -19423,7 +19423,7 @@
 				)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "2.4K"
 			(at 5.08 -2.5 90)
 			(layer "F.Fab")
 			(uuid "562faff2-84d9-424d-8350-680c39faba2f")
@@ -19460,7 +19460,7 @@
 				)
 			)
 		)
-		(property "Description" "2K Ohm 1/2W 1% Metal Film Resistor"
+		(property "Description" "2.4K Ohm 1/4W 1% Metal Film Resistor (exact value not required)"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19473,7 +19473,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.taydaelectronics.com/10-x-resistor-2k-ohm-1-2w-1-metal-film-pkg-of-10.html"
+		(property "URL" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/resistor-2-4k-ohm-1-4w-1-metal-film-pkg-of-10.html"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19694,17 +19694,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "902db004-55a5-4315-936e-2fb77ad8ef69")
-		(at 179.9576 52.552)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
+		(at 179.9576 52.551975)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M2"
-			(at 0 -3.8 0)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b6854e2f-4b75-4861-b6e1-c7f12f6ca541")
+			(uuid "b8c62891-b68e-4bca-b338-5ef51a2d1e6b")
 			(effects
 				(font
 					(size 1 1)
@@ -19712,10 +19712,10 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 0 3.8 0)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "30e20d5d-c030-4c41-a1c7-8eedb17a491e")
+			(uuid "fc15238a-2337-4d37-b631-1b558a12a4f3")
 			(effects
 				(font
 					(size 1 1)
@@ -19723,12 +19723,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff44d47d-d48d-415d-9581-bfefdbef4b6f")
+			(uuid "789686cc-195e-40e7-a6b7-b35c88b733b5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19741,7 +19741,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f33cd99a-4351-458e-af61-3cb380565b0a")
+			(uuid "ebb60ada-8338-4776-b55c-14b43008e12a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19754,7 +19754,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b375a2d1-27d2-4f08-ab74-545b9100e466")
+			(uuid "534fa3d9-0730-43e1-b014-7573b634419c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19765,30 +19765,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.8 0)
+			(end 3.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "7eacd481-871d-4995-824e-fef071f8c3fb")
+			(uuid "aaba55d4-52a1-473c-8ef9-46613d5563c4")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.05 0)
+			(end 3.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "7b60c8d9-67be-4088-bd6e-079b8906abaf")
+			(uuid "3514e727-9b62-41b1-b2cd-e4474ff0e8be")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "c2a3309f-93d2-4aae-be21-18d6c2f6df59")
+			(uuid "f0ddd76d-1d3b-45b3-b556-c14df8e2a6e1")
 			(effects
 				(font
 					(size 1 1)
@@ -19798,11 +19798,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 5.6 5.6)
+			(size 6.4 6.4)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "2a3511d5-a079-431f-831f-a9f117fb3c28")
+			(uuid "c5767b0e-7a5a-4c88-a1c4-9f235002a789")
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -19859,7 +19859,7 @@
 				)
 			)
 		)
-		(property "Description" "??"
+		(property "Description" "150 Ohm 1/4W 1% Metal Film Resistor (exact value not required)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19872,7 +19872,7 @@
 				)
 			)
 		)
-		(property "URL" "??"
+		(property "URL" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/10-x-resistor-150-ohm-1-4w-1-metal-film-pkg-of-10.html"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20067,7 +20067,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(D11-A)")
+			(net 10 "Net-(J1-Pin_3)")
 			(pintype "passive")
 			(uuid "f4a24b08-0930-478f-a9bc-0784825d7d2c")
 		)
@@ -24400,17 +24400,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "a69de253-17bc-41b0-8f27-d108333f94ae")
-		(at 107.9576 52.552)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
+		(at 107.9576 52.551975)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M1"
-			(at 0 -3.8 0)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7a2f430c-a760-4f53-813d-13d5c8b4d5aa")
+			(uuid "ce447eb2-d4c2-4c43-bf79-3240c9b5f515")
 			(effects
 				(font
 					(size 1 1)
@@ -24418,10 +24418,10 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 0 3.8 0)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "438b1f32-a177-45c3-b346-966257257330")
+			(uuid "03ce5a9a-a3b8-4c16-859d-8660a280f252")
 			(effects
 				(font
 					(size 1 1)
@@ -24429,12 +24429,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff44d47d-d48d-415d-9581-bfefdbef4b6f")
+			(uuid "f273ea0c-055a-4d64-b75f-56f8cb22e5f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24447,7 +24447,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f33cd99a-4351-458e-af61-3cb380565b0a")
+			(uuid "33a9bcb4-0daa-4e5d-84e2-621c1de95c7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24460,7 +24460,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b375a2d1-27d2-4f08-ab74-545b9100e466")
+			(uuid "14b2d9d3-1ecd-46f0-88c3-8e58aeda9678")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24471,30 +24471,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.8 0)
+			(end 3.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "a323be8e-0e1f-4fbb-8d04-2b54c527e78b")
+			(uuid "31984030-4a19-4945-afdf-bd55fb8b5921")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.05 0)
+			(end 3.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "25a70a14-0175-421f-815c-3e07b946a30f")
+			(uuid "60627829-baac-4382-983d-00e9a990423b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "ce929a6e-9dad-4de4-a3ec-ceba29b6f3ec")
+			(uuid "db4d77ff-a2f6-47d4-9209-83b3fae58b54")
 			(effects
 				(font
 					(size 1 1)
@@ -24504,11 +24504,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 5.6 5.6)
+			(size 6.4 6.4)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "ad872ce7-a6ca-4a5d-9f09-3843cd0cd258")
+			(uuid "9d6f97c2-1963-4064-8ceb-e032bc459c01")
 		)
 	)
 	(footprint "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
@@ -24886,7 +24886,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(D11-A)")
+			(net 10 "Net-(J1-Pin_3)")
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "d66e0072-1d7a-4160-8e4a-75b1d78cab31")
@@ -24897,7 +24897,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Net-(D10-A)")
+			(net 9 "Net-(J1-Pin_4)")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "d2ba22ad-6504-415e-b8ad-3d124b1b27ae")
@@ -24908,7 +24908,7 @@
 			(drill 0.95)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 8 "Net-(D9-A)")
+			(net 8 "Net-(J1-Pin_5)")
 			(pinfunction "Pin_5")
 			(pintype "passive")
 			(uuid "7eef937b-4d73-4927-bb98-62406d06e8d7")
@@ -25330,7 +25330,7 @@
 		(at 172.9327 136.052 180)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
-		(property "Reference" "D11"
+		(property "Reference" "L1"
 			(at 1.27 -2.96 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -25563,7 +25563,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(D11-A)")
+			(net 10 "Net-(J1-Pin_3)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9106ace5-d623-437a-9d01-d2a193517b6c")
@@ -25580,17 +25580,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "b24803bf-de35-43e2-b034-f571e77c63a5")
-		(at 107.9576 144.552)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
+		(at 107.9576 144.551975)
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M4"
-			(at 0 -3.8 0)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2c1e5f88-dae2-4d8d-a7b2-69e4e1507cf6")
+			(uuid "50d86fa6-0018-48c8-9b13-41972fb14e17")
 			(effects
 				(font
 					(size 1 1)
@@ -25598,10 +25598,10 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 0 3.8 0)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "9aa52730-b862-4979-abb6-eee7aec25532")
+			(uuid "6f494261-7c5f-4f0c-a5a7-dd4116bc02bd")
 			(effects
 				(font
 					(size 1 1)
@@ -25609,12 +25609,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff44d47d-d48d-415d-9581-bfefdbef4b6f")
+			(uuid "f29499f2-9346-4439-b028-69d2b2eb523d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25627,7 +25627,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f33cd99a-4351-458e-af61-3cb380565b0a")
+			(uuid "345b5e91-1bd4-4e1b-8e14-697bb69b9c0b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25640,7 +25640,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b375a2d1-27d2-4f08-ab74-545b9100e466")
+			(uuid "42025fa8-fc64-4f07-a2e7-d3718f99d699")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25651,30 +25651,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.8 0)
+			(end 3.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "5a3595e8-1794-4bb8-9b58-5ee073cd9381")
+			(uuid "4fed5774-74bd-441e-9f75-0bf7449e3910")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.05 0)
+			(end 3.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "cc52444f-c7f7-490d-a616-dc84b16d331c")
+			(uuid "783ab065-223e-45d8-b776-f3353797f6ab")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "8b70465f-c17a-4699-88d9-638e6142d001")
+			(uuid "18c8fde3-03a7-406f-9ad7-be591425bde0")
 			(effects
 				(font
 					(size 1 1)
@@ -25684,11 +25684,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 5.6 5.6)
+			(size 6.4 6.4)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "092b9ee4-9350-41dc-b2db-4e730e2c2775")
+			(uuid "30d49a90-890d-41d9-87df-29dc1cb1e5a7")
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -25708,7 +25708,7 @@
 				)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "510"
 			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "aee536c2-5933-4507-9b32-99c3cf70281d")
@@ -25745,7 +25745,7 @@
 				)
 			)
 		)
-		(property "Description" "??"
+		(property "Description" "510 Ohm 1/4W 1% Metal Film Resistor (exact value not required)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25758,7 +25758,7 @@
 				)
 			)
 		)
-		(property "URL" "??"
+		(property "URL" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/10-x-resistor-510-ohm-1-4w-1-metal-film-pkg-of-10.html"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25953,7 +25953,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Net-(D10-A)")
+			(net 9 "Net-(J1-Pin_4)")
 			(pintype "passive")
 			(uuid "88592eb5-60aa-4aa5-bfaf-ce8c2f39ada7")
 		)
@@ -31533,17 +31533,17 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
 		(uuid "d41a5014-6136-4bcc-a42c-4fa141cc60ca")
 		(at 179.9576 144.552)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
+		(descr "Mounting Hole 3.2mm, M3")
+		(tags "mounting hole 3.2mm m3")
 		(property "Reference" "M3"
-			(at 0 -3.8 0)
+			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2795ff89-e499-4e22-9162-a26d886b0a83")
+			(uuid "aaa5e8a4-8922-4f1d-8aad-95a600595a14")
 			(effects
 				(font
 					(size 1 1)
@@ -31551,10 +31551,10 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 0 3.8 0)
+		(property "Value" "MountingHole_3.2mm_M3_Pad"
+			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "dfc9c753-a1a1-43a2-aa83-f0dba44745c3")
+			(uuid "d7c7eb9b-b44d-4c6b-b8a5-c7769aaf88a5")
 			(effects
 				(font
 					(size 1 1)
@@ -31562,12 +31562,12 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff44d47d-d48d-415d-9581-bfefdbef4b6f")
+			(uuid "3fee324d-b0aa-4503-8e40-6aaacd7fd495")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31580,7 +31580,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f33cd99a-4351-458e-af61-3cb380565b0a")
+			(uuid "49650fbf-afa2-4d78-a8b5-2acc7a2c8c4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31593,7 +31593,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b375a2d1-27d2-4f08-ab74-545b9100e466")
+			(uuid "6cc2257c-b149-4a23-b30c-2577c67cab69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31604,30 +31604,30 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 2.8 0)
+			(end 3.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "065afe87-a621-462b-907c-37d97545a79c")
+			(uuid "e7d1dd9f-08dc-4fd2-86f1-0860322413ef")
 		)
 		(fp_circle
 			(center 0 0)
-			(end 3.05 0)
+			(end 3.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "85bcfb6b-15bc-4840-b40e-669b360e918b")
+			(uuid "3f255136-148b-496a-a9b5-11999ae35a61")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "dc0fe87b-f1b8-4b58-a982-4d25a94cd352")
+			(uuid "6b651edb-e1c3-478d-8e50-6104f326872f")
 			(effects
 				(font
 					(size 1 1)
@@ -31637,11 +31637,11 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 5.6 5.6)
+			(size 6.4 6.4)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "4112c11e-7a79-462e-8a6e-5737beae7b44")
+			(uuid "e08a49ac-b32c-4b16-bf1f-e92684d3b31a")
 		)
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
@@ -37268,7 +37268,7 @@
 				)
 			)
 		)
-		(property "Value" "2K"
+		(property "Value" "2.4K"
 			(at 5.08 2.37 90)
 			(layer "F.Fab")
 			(uuid "72869aaa-fb94-4391-a491-2b63469ec90b")
@@ -37305,7 +37305,7 @@
 				)
 			)
 		)
-		(property "Description" "2K Ohm 1/2W 1% Metal Film Resistor"
+		(property "Description" "2.4K Ohm 1/4W 1% Metal Film Resistor (exact value not required)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37318,7 +37318,7 @@
 				)
 			)
 		)
-		(property "URL" "https://www.taydaelectronics.com/10-x-resistor-2k-ohm-1-2w-1-metal-film-pkg-of-10.html"
+		(property "URL" "https://www.taydaelectronics.com/resistors/1-4w-metal-film-resistors/resistor-2-4k-ohm-1-4w-1-metal-film-pkg-of-10.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
