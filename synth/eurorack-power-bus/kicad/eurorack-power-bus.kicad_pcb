@@ -7464,7 +7464,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3e0c50d7-51d4-4665-8ac9-9a62cca0d099")
+			(uuid "560911e0-1664-44c6-9ba8-ce07d7766fe2")
 			(effects
 				(font
 					(size 1 1)
@@ -7475,7 +7475,7 @@
 		(property "Value" "MountingHole_3.2mm_M3_Pad"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "de980eb2-13c2-45d7-b092-a069ac1f2568")
+			(uuid "c1bd7da3-bc6a-49aa-b2f2-78bb79a240c4")
 			(effects
 				(font
 					(size 1 1)
@@ -7532,7 +7532,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "b38e7265-036f-425d-9aae-7cc2b9a836c1")
+			(uuid "5fa2b914-8ebd-4d58-bf64-88fe1b42d80c")
 		)
 		(fp_circle
 			(center 0 0)
@@ -7543,12 +7543,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "7aa948ec-806b-4f16-9247-9a5acc380e5e")
+			(uuid "63e65532-f423-489b-8cd5-5ffbd2a50b07")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "8ee24605-5136-42d2-ab28-9149667bb3b7")
+			(uuid "de72643d-2b34-4079-9d71-fd89167ccde3")
 			(effects
 				(font
 					(size 1 1)
@@ -7562,7 +7562,7 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "4e6f79b3-5864-4d3f-a6c8-e4a68bfd4cd7")
+			(uuid "08fa62d5-a94a-47d4-97e8-1a714e54553b")
 		)
 	)
 	(footprint "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
@@ -8892,7 +8892,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "67d56142-b1cb-4dae-ab20-6e754f916b54")
+			(uuid "05110912-952f-464d-9037-75a482e00c4b")
 			(effects
 				(font
 					(size 1 1)
@@ -8903,7 +8903,7 @@
 		(property "Value" "MountingHole_3.2mm_M3_Pad"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "19cfc9d7-4e76-4bfe-b2b7-e0dca377112f")
+			(uuid "f27e0c15-5211-4f83-9f71-be6108f86263")
 			(effects
 				(font
 					(size 1 1)
@@ -8960,7 +8960,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "94fadc0a-45d7-4826-b8df-d1478e67d70f")
+			(uuid "5d1b9a7d-e191-41dc-be91-1dd87fc032d1")
 		)
 		(fp_circle
 			(center 0 0)
@@ -8971,12 +8971,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "8ba32fc2-912f-4b06-bbe8-e0671410db31")
+			(uuid "04f84692-c314-4a9d-8cf3-c24505ba38fd")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "73461b52-75d0-49e1-9579-1b105fff36ec")
+			(uuid "ae9ea1bc-f9f6-48f4-8e2e-f2ec1ef0f624")
 			(effects
 				(font
 					(size 1 1)
@@ -8990,7 +8990,7 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "a3439e45-3395-4c0c-8901-20ce6cf16141")
+			(uuid "3a7d8db9-e6f8-4ccf-bc55-236d08034bec")
 		)
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
@@ -16065,13 +16065,13 @@
 			(justify left)
 		)
 	)
-	(gr_text "Eurorack Power Bus\n(Passive)"
+	(gr_text "Eurorack Power Bus (Passive)"
 		(at 204.025 117.238375 0)
 		(layer "F.SilkS")
 		(uuid "d8b577ab-e472-43e7-a885-d0f7d1dcf404")
 		(effects
 			(font
-				(size 2 2)
+				(size 1 1)
 				(thickness 0.1)
 			)
 		)

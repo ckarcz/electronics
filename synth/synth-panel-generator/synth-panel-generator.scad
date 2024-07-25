@@ -1,11 +1,11 @@
 // input values
 panelU = 4;
-panelHp = 15;
+panelHp = 6;
 panelThickness = 4;
-railEdgeHeight = 2.4;
-railTotalHeight = 10.975;
+railEdgeHeight = 1.7;
+railTotalHeight = 10;
 holeCount = 4;
-holeWidth = 5.08;
+holeWidth = 6;
 holeDiameter = 3.2;
 ignoreMountHoles = false;
 
@@ -50,7 +50,6 @@ echo("-------------------------------");
 
 echo("CALCULATED:");
 echo("panelUHeight", panelUHeight);
-echo("totalRailEdgeHeight", totalRailEdgeHeight);
 echo("panelActualHeight", panelActualHeight);
 echo("panelActualWidth", panelActualWidth);
 echo("pcbMaxHeight", pcbMaxHeight);
@@ -87,7 +86,7 @@ module eurorackMountHolesTopRow(holeWidth, holes)
     }
     if(holes > 1)
     {
-        translate([(panelActualWidth) - holeWidthCubeWidth - hp, panelActualHeight - offsetToMountHoleCenterY, 0])
+        translate([panelActualWidth - holeWidthCubeWidth - hp, panelActualHeight - offsetToMountHoleCenterY, 0])
         {
             eurorackMountHole(holeWidth);
         }
@@ -114,7 +113,7 @@ module eurorackMountHolesBottomRow(holeWidth, holes)
     }
     if(holes > 1)
     {
-        translate([offsetToMountHoleCenterX ,offsetToMountHoleCenterY, 0])
+        translate([hp, offsetToMountHoleCenterY, 0])
         {
             eurorackMountHole(holeWidth);
         }
@@ -134,7 +133,6 @@ module eurorackMountHolesBottomRow(holeWidth, holes)
 
 module eurorackMountHole(holeWidth)
 {
-    
     mountHoleDepth = panelThickness + 2;
     
     if(holeWidthCubeWidth < 0)
