@@ -2,11 +2,13 @@
 panelU = 4;
 panelHp = 6;
 panelThickness = 4;
-railEdgeHeight = 1.7;
-railTotalHeight = 10;
+panelEdgeWidth = 1;
+panelEdgeThickness = 1;
+zRailEdgeHeight = 1.7;
+zRailTotalHeight = 10;
 holeCount = 4;
 holeWidth = 6;
-holeDiameter = 3.2;
+holeDiameter = 3.25;
 ignoreMountHoles = false;
 
 // reference values
@@ -15,13 +17,13 @@ u = 44.45;
 
 // calculated values
 panelUHeight = panelU * u;
-totalRailEdgeHeight = railEdgeHeight * 2;
-panelActualHeight = panelUHeight - totalRailEdgeHeight;
+totalzRailEdgeHeight = zRailEdgeHeight * 2;
+panelActualHeight = panelUHeight - totalzRailEdgeHeight;
 panelActualWidth = panelHp * hp;
-pcbMaxHeight = panelActualHeight - railTotalHeight;
+pcbMaxHeight = panelActualHeight - zRailTotalHeight;
 mountHoleRad = holeDiameter / 2;
 holeWidthCubeWidth = holeWidth - holeDiameter;
-offsetToMountHoleCenterY = (railTotalHeight / 2) - railEdgeHeight;
+offsetToMountHoleCenterY = (zRailTotalHeight / 2) - zRailEdgeHeight;
 offsetToMountHoleCenterX = hp - holeWidthCubeWidth / 2;
 
 echo("-------------------------------");
@@ -30,13 +32,15 @@ echo("INPUTS:");
 echo("panelU", panelU);
 echo("panelHp", panelHp);
 echo("panelThickness", panelThickness);
-echo("railEdgeHeight", railEdgeHeight);
-echo("railTotalHeight", railTotalHeight);
+echo("panelEdgeWidth", panelEdgeWidth);
+echo("panelEdgeThickness", panelEdgeThickness);
+echo("zRailEdgeHeight", zRailEdgeHeight);
+echo("zRailTotalHeight", zRailTotalHeight);
 if (!ignoreMountHoles)
 {
     echo("holeCount", holeCount);
-    echo("holeWidth", holeWidth);
     echo("holeDiameter", holeDiameter);
+    echo("holeWidth", holeWidth);
 }
 
 echo("-------------------------------");
@@ -61,8 +65,23 @@ module eurorackPanel()
 {
     difference()
     {
-        cube([panelActualWidth, panelActualHeight, panelThickness]);
+        union()
+        {
+            // panel
+            cube([panelActualWidth, panelActualHeight, panelThickness]);
+            
+            // side rails
+            translate([0, 0, -panelEdgeThickness])
+            {
+                cube([panelEdgeWidth, panelActualHeight, panelEdgeThickness]);
+            }
+            translate([panelActualWidth - panelEdgeWidth, 0, -panelEdgeThickness])
+            {
+                cube([panelEdgeWidth, panelActualHeight, panelEdgeThickness]);
+            }
+        }
         
+        // holes
         if(!ignoreMountHoles)
         {
             eurorackMountHoles(holeCount, holeWidth);
