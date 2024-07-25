@@ -21,7 +21,7 @@ panelActualWidth = panelHp * hp;
 pcbMaxHeight = panelActualHeight - railTotalHeight;
 mountHoleRad = holeDiameter / 2;
 holeWidthCubeWidth = holeWidth - holeDiameter;
-offsetToMountHoleCenterY = railTotalHeight / 2;
+offsetToMountHoleCenterY = (railTotalHeight / 2) - railEdgeHeight;
 offsetToMountHoleCenterX = hp - holeWidthCubeWidth / 2;
 
 echo("-------------------------------");
