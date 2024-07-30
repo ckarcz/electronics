@@ -1,9 +1,9 @@
 // input values
 panelU = 4;
 panelHp = 6;
-panelThickness = 4;
-panelEdgeWidth = 1;
-panelEdgeThickness = 1;
+panelThickness = 3;
+panelEdgeWidth = 2;
+panelEdgeThickness = 7;
 zRailEdgeHeight = 1.7;
 zRailTotalHeight = 10;
 holeCount = 4;
@@ -71,13 +71,13 @@ module eurorackPanel()
             cube([panelActualWidth, panelActualHeight, panelThickness]);
             
             // side rails
-            translate([0, 0, -panelEdgeThickness])
+            translate([0, zRailTotalHeight, -panelEdgeThickness])
             {
-                cube([panelEdgeWidth, panelActualHeight, panelEdgeThickness]);
+                cube([panelEdgeWidth, panelActualHeight - (2 * zRailTotalHeight), panelEdgeThickness]);
             }
-            translate([panelActualWidth - panelEdgeWidth, 0, -panelEdgeThickness])
+            translate([panelActualWidth - panelEdgeWidth, zRailTotalHeight, -panelEdgeThickness])
             {
-                cube([panelEdgeWidth, panelActualHeight, panelEdgeThickness]);
+                cube([panelEdgeWidth, panelActualHeight - (2 * zRailTotalHeight), panelEdgeThickness]);
             }
         }
         
